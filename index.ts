@@ -8,7 +8,7 @@ const answers = await inquirer.prompt([{
 }]);
 if(answers.Guessednumber=== random){
   console.log("Congratulations you guessed a right number");
- console.log("Author: Engineer Mudasir Ali");
+ console.log("Author:Engineer Mudasir Ali Laghari");
 }else{
   console.log("You Guessed wrong number");
 }
